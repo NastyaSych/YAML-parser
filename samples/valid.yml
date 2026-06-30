@@ -1,0 +1,23 @@
+stages:
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+  - g
+
+job_name1:
+  image: ubuntu:22.04
+
+job_name2:
+  image:
+    name: maven:3.8-openjdk-17
+
+job_name3:
+  image:
+    name: alpine
+    entrypoint: ["sh"]
+
+job_name4:
+  image: debian:bullseye
