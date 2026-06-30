@@ -1,4 +1,4 @@
-# YAML Parser for GitLab CI
+# YAML Parser для GitLab CI
 
 YAML parser для `.gitlab-ci.yml` с упрощенной структурой, написанный in Kotlin.
 
@@ -20,7 +20,7 @@ YAML parser для `.gitlab-ci.yml` с упрощенной структурой
 ```
 
 ```bash
-# С файлом по умолчанию (.gitlab-ci.yml)
+# С файлом по умолчанию (samples/.gitlab-ci.yml)
 ./gradlew run
 ```
 
